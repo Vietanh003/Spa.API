@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi;
-using Microsoft.OpenApi.Models;
 using Spa.API.Data;
 using System.Text;
 
@@ -15,40 +12,49 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Controllers
+        builder.Services.AddCors(opt =>
+        {
+            opt.AddPolicy("fe", p =>
+                p.WithOrigins("http://localhost:5173")
+                 .AllowAnyHeader()
+                 .AllowAnyMethod()
+            );
+        });
         builder.Services.AddControllers();
 
-        // DbContext
         builder.Services.AddDbContext<AppDbContext>(opt =>
             opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
-        // JWT Auth
+        // JWT Auth (quan trọng: phải AddAuthentication)
         var jwt = builder.Configuration.GetSection("Jwt");
         var key = jwt["Key"] ?? throw new Exception("Jwt:Key is missing");
-        var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
 
-        builder.Services.AddSwaggerGen(c =>
-        {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Spa.Api", Version = "v1" });
-
-            var scheme = new OpenApiSecurityScheme
+        builder.Services
+            .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
             {
-                Name = "Authorization",
-                Type = SecuritySchemeType.Http,
-                Scheme = "bearer",
-                BearerFormat = "JWT",
-                In = ParameterLocation.Header,
-                Description = "Nhập: Bearer {token}"
-            };
+                options.TokenValidationParameters = new()
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = jwt["Issuer"],
+                    ValidAudience = jwt["Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
+                    ClockSkew = TimeSpan.FromSeconds(10)
+                };
+            });
 
-            c.AddSecurityDefinition("Bearer", scheme);
+        builder.Services.AddAuthorization();
 
-            c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        { scheme, Array.Empty<string>() }
-    });
-        });
+        // Swagger basic (không cấu hình Bearer UI)
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
+
         var app = builder.Build();
+
+        app.UseCors("fe");
 
         app.UseSwagger();
         app.UseSwaggerUI();
@@ -59,7 +65,6 @@ public class Program
         app.UseAuthorization();
 
         app.MapControllers();
-
         app.Run();
     }
 }

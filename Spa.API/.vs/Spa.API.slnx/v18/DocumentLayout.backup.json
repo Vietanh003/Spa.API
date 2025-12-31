@@ -1,7 +1,64 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\controllers\\danhmucdichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\controllers\\danhmucdichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\controllers\\dichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\controllers\\dichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\entities\\danhmucdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\entities\\danhmucdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\dtos\\danhmucrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\dtos\\danhmucrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\dtos\\dichvurequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\dtos\\dichvurequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\entities\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\entities\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\spa.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\spa.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\entities\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\entities\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|e:\\vietanh\\project_person\\spa\\spa.api\\spa.api\\spa.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3CF9DACD-F563-2EE0-FBDE-39078EE0372E}|Spa.API\\Spa.API.csproj|solutionrelative:spa.api\\spa.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +75,188 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DichVuController.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Controllers\\DichVuController.cs",
+              "RelativeDocumentMoniker": "Spa.API\\Controllers\\DichVuController.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Controllers\\DichVuController.cs",
+              "RelativeToolTip": "Spa.API\\Controllers\\DichVuController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAgwNgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T09:11:02.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DanhMucDichVuController.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Controllers\\DanhMucDichVuController.cs",
+              "RelativeDocumentMoniker": "Spa.API\\Controllers\\DanhMucDichVuController.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Controllers\\DanhMucDichVuController.cs",
+              "RelativeToolTip": "Spa.API\\Controllers\\DanhMucDichVuController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T09:10:15.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DichVuRequest.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\DTOs\\DichVuRequest.cs",
+              "RelativeDocumentMoniker": "Spa.API\\DTOs\\DichVuRequest.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\DTOs\\DichVuRequest.cs",
+              "RelativeToolTip": "Spa.API\\DTOs\\DichVuRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T08:54:02.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DanhMucRequest.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\DTOs\\DanhMucRequest.cs",
+              "RelativeDocumentMoniker": "Spa.API\\DTOs\\DanhMucRequest.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\DTOs\\DanhMucRequest.cs",
+              "RelativeToolTip": "Spa.API\\DTOs\\DanhMucRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T08:53:36.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DanhMucDichVu.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Entities\\DanhMucDichVu.cs",
+              "RelativeDocumentMoniker": "Spa.API\\Entities\\DanhMucDichVu.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Entities\\DanhMucDichVu.cs",
+              "RelativeToolTip": "Spa.API\\Entities\\DanhMucDichVu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T08:32:02.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DichVu.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Entities\\DichVu.cs",
+              "RelativeDocumentMoniker": "Spa.API\\Entities\\DichVu.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Entities\\DichVu.cs",
+              "RelativeToolTip": "Spa.API\\Entities\\DichVu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T08:29:49.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Spa.API.http",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Spa.API.http",
+              "RelativeDocumentMoniker": "Spa.API\\Spa.API.http",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Spa.API.http",
+              "RelativeToolTip": "Spa.API\\Spa.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-31T01:26:26.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Spa.API",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Spa.API.csproj",
+              "RelativeDocumentMoniker": "Spa.API\\Spa.API.csproj",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Spa.API.csproj",
+              "RelativeToolTip": "Spa.API\\Spa.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-31T01:15:32.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Spa.API\\DTOs\\LoginRequest.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "Spa.API\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T10:07:12.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Spa.API\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Spa.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T10:06:28.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Program.cs",
+              "RelativeDocumentMoniker": "Spa.API\\Program.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Program.cs",
+              "RelativeToolTip": "Spa.API\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T10:00:47.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Spa.API\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Spa.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T09:59:35.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Entities\\NhanVien.cs",
+              "RelativeDocumentMoniker": "Spa.API\\Entities\\NhanVien.cs",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\Entities\\NhanVien.cs",
+              "RelativeToolTip": "Spa.API\\Entities\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T09:57:49.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Spa.API\\appsettings.json",
+              "ToolTip": "E:\\VietAnh\\Project_Person\\Spa\\Spa.API\\Spa.API\\appsettings.json",
+              "RelativeToolTip": "Spa.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-30T09:54:45.583Z",
+              "EditorCaption": ""
             }
           ]
         }
