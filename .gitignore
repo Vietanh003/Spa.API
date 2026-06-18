@@ -1,0 +1,38 @@
+# ===== Secrets (KHÔNG được commit!) =====
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+.env
+.env.local
+.env.*.local
+**/Properties/launchSettings.json
+
+# ===== .NET =====
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.pidb
+*.log
+*.tlog
+
+# ===== Visual Studio / VS Code =====
+.vscode/
+*.vscodesettings
+
+# ===== Node / Vite =====
+node_modules/
+dist/
+*.local
+*.log
+.DS_Store
+
+# ===== Uploads cũ (đã chuyển sang Cloudinary) =====
+**/wwwroot/uploads/
+
+# ===== Files build artifacts =====
+**/PublishProfiles/
+*.publishsettings

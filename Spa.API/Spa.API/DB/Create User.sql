@@ -1,0 +1,16 @@
+﻿CREATE LOGIN spa_app WITH PASSWORD = 'Spa@123456', CHECK_POLICY = ON;
+GO
+
+IF DB_ID(N'SpaDb') IS NULL
+BEGIN
+    CREATE DATABASE SpaDb;
+END
+GO
+
+USE SpaDb;
+GO
+CREATE USER spa_app FOR LOGIN spa_app;
+GO
+
+ALTER ROLE db_owner ADD MEMBER spa_app;
+GO
